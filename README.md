@@ -4,4 +4,3 @@ Spring boot MicroService example
 
 m1
 
-f1
