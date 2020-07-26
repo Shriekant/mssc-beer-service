@@ -1,6 +1,7 @@
 package com.dfinite.msscbeerservice.web.model.controller;
 
-import com.dfinite.msscbeerservice.web.model.BeerDto;
+import com.dfinite.model.BeerDto;
+import com.dfinite.msscbeerservice.web.controller.BeerController;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

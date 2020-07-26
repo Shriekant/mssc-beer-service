@@ -1,6 +1,6 @@
-package com.dfinite.msscbeerservice.web.model.controller;
+package com.dfinite.msscbeerservice.web.controller;
 
-import com.dfinite.msscbeerservice.web.model.BeerDto;
+import com.dfinite.model.BeerDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,5 +29,11 @@ public class BeerController {
     {
         //todo impl
         return new ResponseEntity(HttpStatus.NO_CONTENT);
+    }
+
+    @ResponseStatus()
+    public void deleteBeer(@PathVariable UUID uuid)
+    {
+        new ResponseEntity<>(HttpStatus.OK);
     }
 }
