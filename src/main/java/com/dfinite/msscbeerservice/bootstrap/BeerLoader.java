@@ -1,5 +1,6 @@
 package com.dfinite.msscbeerservice.bootstrap;
 
+import com.dfinite.model.BeerDto;
 import com.dfinite.model.BeerStyleEnum;
 import com.dfinite.msscbeerservice.domain.Beer;
 import com.dfinite.msscbeerservice.repositories.BeerRepositories;
